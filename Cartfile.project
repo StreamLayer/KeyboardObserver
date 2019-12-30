@@ -1,0 +1,5 @@
+KeyboardObserver:
+  project: KeyboardObserver.xcodeproj
+  sdks:
+  - iphoneos
+  - iphonesimulator
