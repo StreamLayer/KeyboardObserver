@@ -1,5 +1,5 @@
 {
-  "branch": "master",
+  "branches": ["master", { "name": "5.0.1-swift", "prerelease": true }],
   "plugins": [
     ["@semantic-release/commit-analyzer", {
       "preset": "angular"
@@ -9,7 +9,7 @@
       "assets": ["report.json"]
     }],
     ["@semantic-release/exec", {
-      "publishCmd": "carthage build --archive"
+      "prepareCmd": "echo 'SWIFT_VERSION=5.1.3' >> $XCODE_XCCONFIG_FILE; carthage build --commitish v${nextRelease.version} --cache-builds --archive --archive-output SLR_KeyboardObserver.framework.zip"
     }],
     ["@semantic-release/github", {
       "assets": [
