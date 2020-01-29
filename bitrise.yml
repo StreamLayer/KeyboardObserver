@@ -29,7 +29,7 @@ workflows:
               --product-name "$PRODUCT_NAME"
 
             xcconfig=$(mktemp /tmp/static.xcconfig.XXXXXX)
-            trap 'rm -f "$xcconfig"; git checkout -- "$DIR"' INT TERM HUP EXIT
+            trap 'rm -f "$xcconfig"; git restore -s@ -SW -- "$DIR"; git clean -f' INT TERM HUP EXIT
 
             echo "DEBUG_INFORMATION_FORMAT = dwarf" >> $xcconfig
             echo "CLANG_ENABLE_MODULE_DEBUGGING = NO" >> $xcconfig

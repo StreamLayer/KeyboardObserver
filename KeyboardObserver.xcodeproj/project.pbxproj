@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		90F10A2C1C1DF4BE00D59B96 /* KeyboardObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 90F10A2B1C1DF4BE00D59B96 /* KeyboardObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90F10A5E1C1DF6C200D59B96 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F10A5D1C1DF6C200D59B96 /* KeyboardObserver.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,7 +61,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90F10A2C1C1DF4BE00D59B96 /* KeyboardObserver.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
