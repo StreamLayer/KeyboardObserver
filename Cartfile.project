@@ -1,4 +1,4 @@
-KeyboardObserver:
+KeyboardObserver-Package:
   project: KeyboardObserver.xcodeproj
   sdks:
   - iphoneos
