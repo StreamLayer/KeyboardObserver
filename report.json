@@ -1,1 +1,1 @@
-{"identifiers":["KeyboardEvent","KeyboardEventType","KeyboardObserver","KeyboardState"],"products":["KeyboardObserver"],"prefix":"SLR_","fnReplace":[]}
+{"identifiers":["KeyboardEvent","KeyboardState","KeyboardEventType","KeyboardObserver"],"products":["KeyboardObserver"],"prefix":"SLR_","fnReplace":[]}
